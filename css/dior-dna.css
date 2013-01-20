@@ -1,0 +1,156 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-rendering: auto !important;
+}
+
+body {
+    color: #222;
+    font: 14px/19px Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing:.1;
+    padding:0 10px;
+}
+
+body > div.container {
+    margin-top: 15px;
+}
+
+*::-webkit-selection, *::-moz-selection, ::selection {
+    background-color: #FF3068;
+    color: white;
+}
+
+h1 {
+    color: #333;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0 0 10px;
+    line-height: 32px;
+    font-family: Roboto, sans-serif;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+a:link, a:visited {
+    color: #FF3068;
+    text-decoration: none;
+    text-decoration: no-underline;
+}
+
+a:link, a:visited {
+    color: #258AAF;
+    text-decoration: none;
+    text-decoration: no-underline;
+}
+a:focus, a:hover, a:active {
+    color: #33B5E5;
+    text-decoration: none;
+}
+
+/* android-menu */
+
+.android-menu {
+
+}
+
+.android-menu > li {
+    margin-bottom: 5px;
+    background-color: #F2F2F2;
+}
+
+ul.android-menu, .android-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.android-menu .android-menu-nav-header-section {
+    background-color: #EDEDED;
+    display: block;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.android-menu .android-menu-nav-header-section a {
+    color: #333;
+}
+
+.android-menu .android-menu-nav-header-section a.active {
+    color: #31669a;
+}
+
+.android-menu .android-menu-nav-header-section a:hover {
+    color: #FF3068;
+}
+
+.android-menu .android-menu-nav-header2-section {
+    display: block;
+    display: block;
+    font-weight: normal;
+    text-transform: none;
+    padding: 7px 5px 7px 20px;
+    font-size: 14px;
+}
+
+.android-menu .android-menu-nav-header2-section a {
+    color: #555;
+}
+
+.android-menu .android-menu-nav-header2-section a.active {
+    color: #FF3068;
+}
+
+.android-menu .android-menu-nav-header2-section a:hover {
+    color: #FF3068;
+}
+
+/* Special Styles */
+
+.special-atott-goto {
+    min-height: 212px;
+    background: url("../img/footer.png") no-repeat;
+    margin-top: 60px;
+}
+
+.special-atott-goto ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.special-authors {
+    font-size: 12px;
+    padding-top: 110px;
+    padding-left: 760px;
+}
+
+.special-epam-logo {
+    margin-top: 25px;
+}
+
+/* Logo Styles */
+
+.logo-first {
+    color: #227AA9;
+    font-size: 36px;
+    letter-spacing: -0.07em;
+}
+
+.logo-second {
+    color: #FF3068;
+    font-size: 36px;
+    letter-spacing: -0.07em;
+}
