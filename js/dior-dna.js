@@ -30,8 +30,8 @@ AndroidMenu.prototype.initializeContent = function() {
             j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'about-project'}).text('О проекте'),
             j('ul',
                 j('li', j('a', {href: '#', 'data-page': 'about-project'}).text('Dior-DNA')),
-                j('li', j('a', {href: '#', 'data-page': 'about-speakers'}).text('О докладчиках')),
-                j('li', j('a', {href: 'https://github.com/dior-dna?tab=repositories', 'target': '_blank'}).text('Dior-DNA на github'))
+                /*j('li', j('a', {href: '#', 'data-page': 'about-speakers'}).text('О докладчиках')),*/
+                j('li', j('a', {href: 'https://github.com/dior-dna?tab=repositories'}).text('Dior-DNA на github'))
             )
         );
     this.dom.append(mainMenu);
