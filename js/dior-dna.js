@@ -38,14 +38,21 @@ AndroidMenu.prototype.initializeContent = function() {
 
     var part1 =
         j('li',
-            j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'part-1'}).text('Встреча #1')
-            /*j('ul',
-                j('li', j('a', {href: '#', 'data-page': 'about-project'}).text('Dior-DNA')),
-                j('li', j('a', {href: '#', 'data-page': 'about-speakers'}).text('О докладчиках')),
-                j('li', j('a', {href: 'https://github.com/dior-dna?tab=repositories', 'target': '_blank'}).text('Dior-DNA на github'))
-            )*/
+            j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'part-1'}).text('Встречи'),
+            j('ul',
+                j('li', j('a', {href: '#', 'data-page': 'part-1'}).text('Встреча #1'))
+            )
         );
     this.dom.append(part1);
+
+    var projects =
+        j('li',
+            j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'kinoview'}).text('Проекты'),
+            j('ul',
+                j('li', j('a', {href: '#', 'data-page': 'kinoview'}).text('Kinoview'))
+            )
+        );
+    this.dom.append(projects);
 };
 
 AndroidMenu.prototype.initializeUI = function() {
