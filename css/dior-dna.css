@@ -38,6 +38,16 @@ h1 {
     font-family: Roboto, sans-serif;
 }
 
+h2 {
+    color: #333;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0 0 10px;
+    line-height: 32px;
+    font-family: Roboto, sans-serif;
+}
+
 p {
     margin: 0 0 15px;
 }
