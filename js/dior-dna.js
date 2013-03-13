@@ -46,6 +46,15 @@ AndroidMenu.prototype.initializeContent = function() {
         );
     this.dom.append(part1);
 
+    var part2 =
+        j('li',
+            j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'part-2'}).text('Встречи'),
+            j('ul',
+                j('li', j('a', {href: '#', 'data-page': 'part-2'}).text('Встреча #2'))
+            )
+        );
+    this.dom.append(part2);
+
     var projects =
         j('li',
             j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'kinoview'}).text('Проекты'),
