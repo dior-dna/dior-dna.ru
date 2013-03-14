@@ -41,9 +41,7 @@ AndroidMenu.prototype.initializeContent = function() {
         j('li',
             j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'part-1'}).text('Встречи'),
             j('ul',
-                j('li', j('a', {href: '#', 'data-page': 'part-1'}).text('Встреча #1'))
-            ),
-            j('ul',
+                j('li', j('a', {href: '#', 'data-page': 'part-1'}).text('Встреча #1')),
                 j('li', j('a', {href: '#', 'data-page': 'part-2'}).text('Встреча #2'))
             )
         );
