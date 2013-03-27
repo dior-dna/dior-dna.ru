@@ -51,7 +51,8 @@ AndroidMenu.prototype.initializeContent = function() {
         j('li',
             j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'kinoview'}).text('Проекты'),
             j('ul',
-                j('li', j('a', {href: '#', 'data-page': 'kinoview'}).text('Kinoview'))
+                j('li', j('a', {href: '#', 'data-page': 'kinoview'}).text('Kinoview')),
+                j('li', j('a', {href: '#', 'data-page': 'cards'}).text('Фреймворк карточных игр'))
             )
         );
     this.dom.append(projects);
