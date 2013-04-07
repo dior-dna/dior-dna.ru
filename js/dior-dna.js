@@ -42,7 +42,8 @@ AndroidMenu.prototype.initializeContent = function() {
             j('a', {'class': 'android-menu-nav-header', href: '#', 'data-page': 'part-1'}).text('Встречи'),
             j('ul',
                 j('li', j('a', {href: '#', 'data-page': 'part-1'}).text('Встреча #1')),
-                j('li', j('a', {href: '#', 'data-page': 'part-2'}).text('Встреча #2'))
+                j('li', j('a', {href: '#', 'data-page': 'part-2'}).text('Встреча #2')),
+                j('li', j('a', {href: '#', 'data-page': 'part-3-4'}).text('Встреча #3, Встреча #4'))
             )
         );
     this.dom.append(part1);
